@@ -6,10 +6,10 @@ spring:
     config:
       server:
         svn:
-          uri: http://192.168.0.6/svn/repo/config-repo
-          username: username
-          password: password
-        default-label: trunk
+          uri: http://10.1.15.50/AML/trunk/code/aml-server/src/main/
+          username: jiamingyang
+          password: 12345678
+        default-label: resources
   profiles:
     active: subversion
   application:
